@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Merriweather", sans-serif;
+    background: white;
+}
+
+.portfolio-section {
+    padding: 60px 20px;
+    background-color: #f4f8fb;
+}
+
+.portfolio-section h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.portfolio-section p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s;
+    padding: 20px;
+}
+
+.gallery-item:hover {
+    transform: translateY(-10px);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #1A73E8;
+}
+
+.gallery-item h3 {
+    margin-top: 15px;
+    font-size: 22px;
+    color: #1A73E8;
+}
+
+.gallery-item p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* Адаптивные стили */
+@media (max-width: 768px) {
+    .gallery-item {
+        padding: 15px;
+    }
+
+    .gallery-item h3 {
+        font-size: 20px;
+    }
+
+    .gallery-item p {
+        font-size: 14px;
+    }
+}

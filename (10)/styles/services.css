@@ -1,30 +1,23 @@
-#Services{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-#Services .container{
-    width: 1500px;
-}
-
 .card-wrapper{
-    max-width: 1500px;
-    margin: 0 60px 35px;
-    padding: 20px 10px;
-    overflow: hidden;
+	display: flex;
+	flex-direction: row;
+}
+
+.card-list{
+    grid-template-columns: 500px;
+    grid-template-rows: 1fr;
+    display: grid;
+    grid-row-gap: 100px;
+    margin-left: 35%;
+    justify-content: center;
+    justify-items: center;
+    gap: 100px;
 }
 
 .card-list .card-item{
-    list-style: none;
-}
-
-.card-list .card-item .card-link{
     user-select: none;
     display: block;
-    height: 450px;
-    background:  #fff;
+    background: #fff;
     padding: 19px;
     border-radius: 12px;
     text-decoration: none;
@@ -33,8 +26,14 @@
     transition: 0.2s ease;
 }
 
-.card-list .card-item .card-link:hover{
+.card-list .card-item:hover{
     border-color: #5372F0;
+}
+
+.card-list .card-item img{
+	border-radius: 18px 18px 0px 0px;
+	width: 500px;
+	height: 300px;
 }
 
 .card-image{
@@ -44,7 +43,7 @@
     border-radius: 10px;
 }
 
-.card-list .card-link .badge{
+.card-list .card-item .badge{
     color: #5372F0;
     padding: 8px 16px;
     font-size: 0.95rem;
@@ -55,35 +54,33 @@
     border-radius: 50px;
 }
 
-.card-list .card-link .badge.designer{
+.card-list .card-item .badge.designer{
     color: #B22485 ;
     background: #F7DFF5;
 }
 
-.card-list .card-link .badge.marketer{
+.card-list .card-item .badge.marketer{
     color: #B25A2B;
     background: #FFE3D2;
 }
 
-.card-list .card-link .badge.gamer{
+.card-list .card-item .badge.gamer{
     color: #205C20;
     background: #D6F8D6;
 }
 
-.card-list .card-link .badge.editor{
+.card-list .card-item .badge.editor{
     color: #856404;
     background: #fff3cd;
 }
 
-.card-list .card-link .card-title{
+.card-list .card-item .card-title{
     font-size: 1.19rem;
     color: #000;
     font-weight: 600;
 }
 
-.card-list .card-link .card-button{
-    position: absolute;
-    bottom: 20px;
+.card-list .card-item .card-button{
     height: 35px;
     width: 35px;
     color: #5372F0;
@@ -96,7 +93,8 @@
     transition: 0.4s ease;
 }
 
-.card-list .card-link:hover .card-button{
+.card-list .card-item:hover .card-button{
     color: #fff;
     background: #5372F0;
 }
+
