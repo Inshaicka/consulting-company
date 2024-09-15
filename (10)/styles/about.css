@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Merriweather", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+.header-section {
+    background-color: #1A73E8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section {
+    padding: 40px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+}
+
+.about-description {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+    color: #555;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 5px solid #1A73E8;
+    border-radius: 5px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.benefit-item {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.benefit-item i {
+    margin-bottom: 10px;
+}

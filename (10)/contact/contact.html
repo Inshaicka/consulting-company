@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свяжитесь с нами - Консалтинговая компания</title>
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/bar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Иконки -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/logo.jpg" alt="company-logo">
+            <h1>XYZ</h1>
+        </div>
+        <button class="menu-toggle" id="menu-toggle">
+            <span class="material-symbols-rounded">menu</span>
+        </button>
+        <nav id="main-nav">
+            <ul>
+                <li>
+                    <a href="../main/main.html"><i class="fas fa-home"></i> Главная</a>
+                    <ul class="dropdown">
+                        <li><a href="#Home">Главная</a></li>
+                        <li><a href="#Services">Товары</a></li>
+                        <li><a href="#Portfolio">Портфолио</a></li>
+                        <li><a href="#About">О нас</a></li>
+                        <li><a href="#Contacts">Контакты</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../services/services.html"><i class="fas fa-shopping-cart"></i>Товары</a>
+                    <ul class="dropdown">
+                        <li><a href="../services/s/1.html">Товар 1</a></li>
+                        <li><a href="../services/s/2.html">Товар 2</a></li>
+                        <li><a href="../services/s/3.html">Товар 3</a></li>
+                        <li><a href="../services/s/4.html">Товар 4</a></li>
+                        <li><a href="../services/s/5.html">Товар 5</a></li>
+                    </ul>
+                </li>
+                <li><a href="../portfolio/portfolio.html"><i class="fas fa-briefcase"></i> Портфолио</a></li>
+                <li><a href="../about/about.html"><i class="fas fa-info-circle"></i> О компании</a></li>
+                <li><a href="../contact/contact.html"><i class="fas fa-envelope"></i> Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> 
+    <section id="Contacts" class="contact-section">
+        <div class="contact-container">
+            <div class="form-container">
+                <h2>Отправьте нам сообщение</h2>
+                <p>Оставьте свои контакты и краткое описание вашего запроса, и мы свяжемся с вами.</p>
+                <form action="#">
+                    <div class="input-group">
+                        <input type="text" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="Ваш email" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" placeholder="Ваш телефон" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea placeholder="Сообщение" required></textarea>
+                    </div>
+                    <div class="submit-btn">
+                        <input type="submit" value="Отправить">
+                    </div>
+                </form>
+            </div>
+            
+            <div class="info-container">
+                <h2>Контактная информация</h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> г. Москва, Пресненская наб., 8 стр. 1</p>
+                    <p><i class="fas fa-phone-alt"></i> 8-800-000-00-00</p>
+                    <p><i class="fas fa-envelope"></i> info@consulting.com</p>
+                    <p><i class="fas fa-clock"></i> Пн-Пт: 9:00 - 18:00</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.3229374381296!2d37.533789716138016!3d55.75044639940115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bd0621a5f3b%3A0x1f28c154baf40424!2z0J_QsNC70YzRgtGA0L7QsiwgOCwg0JzQvtGB0LrQuNC10L3QuNC1IDEsINCc0L7RgdC60YHRgtCy0LjQtNC20L3QsNGPINC-0LHQuy4sIDExMjM2NA!5e0!3m2!1sru!2sru!4v1632579159822!5m2!1sru!2sru" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+	<div class="footer-container">
+	  <div class="footer-about">
+		<h3><i class="fas fa-info-circle"></i> О компании</h3>
+		<p>Мы — консалтинговая компания, которая помогает нашим клиентам достигать успеха, предлагая эффективные решения для бизнеса.</p>
+	  </div>
+	  <div class="footer-links">
+		<h3><i class="fas fa-link"></i> Быстрые ссылки</h3>
+		<ul>
+		  <li><a href="#About">О нас</a></li>
+		  <li><a href="#Services">Услуги</a></li>
+		  <li><a href="#Contact">Контакты</a></li>
+		</ul>
+	  </div>
+	  <div class="footer-contact">
+		<h3><i class="fas fa-phone"></i> Контакты</h3>
+		<p><i class="fas fa-map-marker-alt"></i> Адрес: г. Москва, ул. Примерная, д. 123</p>
+		<p><i class="fas fa-phone"></i> Телефон: +7 (123) 456-78-90</p>
+		<p><i class="fas fa-envelope"></i> Email: info@company.com</p>
+	  </div>
+	</div>
+	<div class="footer-bottom">
+	  <p>&copy; 2000-2024 XYZ Consulting. Все права защищены.</p>
+	</div>
+</footer>
+</body>
+</html>

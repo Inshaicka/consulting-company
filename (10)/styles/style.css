@@ -2,13 +2,16 @@
 
 *{
     font-family: "Merriweather", sans-serif;
-    background: white;
 }
 
 body {
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+main{
+    margin-top: 50px;
 }
 
 .welcome {

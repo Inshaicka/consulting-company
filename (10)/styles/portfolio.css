@@ -2,12 +2,16 @@
 
 *{
     font-family: "Merriweather", sans-serif;
-    background: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
 }
 
 .portfolio-section {
     padding: 60px 20px;
-    background-color: #f4f8fb;
 }
 
 .portfolio-section h1 {
